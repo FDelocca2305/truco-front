@@ -37,7 +37,7 @@ const LeaderBoard: React.FC = () => {
   return (
     <div className='flex flex-col justify-evenly items-center w-full'>
       <h1 className='text-2xl md:text-4xl font-bold'>LeaderBoard</h1>
-      <div className="w-fit md:w-[85%] h-[80vh] py-8 px-2 flex gap-2 relative justify-evenly items-start rounded-2xl bg-[url('assets/mesa.jpg')] shadow-card overflow-auto">
+      <div className="w-fit md:w-[85%] h-[80vh] py-8 px-2 flex gap-2 relative justify-evenly items-start rounded-2xl bg-[url('/bg.jpg')] shadow-card overflow-auto">
         <div className='flex flex-col items-center md:text-2xl gap-2' ref={usernameRef}>
         </div>
         <div className='flex flex-col items-center md:text-2xl gap-2' ref={ratingRef}>
