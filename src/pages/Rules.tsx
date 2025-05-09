@@ -68,7 +68,7 @@ const Rules: React.FC = () => {
         </p>
 
       </div>
-      <div className="w-full md:w-1/2 h-fit md:h-full relative md:sticky md:top-1 justify-evenly items-center rounded-2xl bg-[url('assets/mesa.jpg')] shadow-card">
+      <div className="w-full md:w-1/2 h-fit md:h-full relative md:sticky md:top-1 justify-evenly items-center rounded-2xl bg-[url('/bg.jpg')] shadow-card">
         <h1 className='font-bold text-3xl text-center m-4'>Cards from Best to Worst</h1>
         <img src={cardsOrder} alt="cardsOrder" className='h-fit md:h-[90%] m-auto' />
       </div>
